@@ -1,0 +1,22 @@
+ALGORITHM counter_check
+VAR
+nb_lenght:INTEGER;
+nb_words : INTEGER;
+nb_vowels : INTEGER;
+word : CHAR;
+
+BEGIN
+word to lowercase
+WHILE (word<>'.') DO nb_lenght+1
+
+IF (word=' ') THEN
+    nb_words+1
+    ELSE_IF(CHAR=A AND CHAR=E AND CHAR=I AND CHAR=O AND CHAR=U)
+    nb_vowels+1
+
+
+
+END_WHILE
+write(nb_lenght)
+write(nb_words)
+write(nb_vowels)
